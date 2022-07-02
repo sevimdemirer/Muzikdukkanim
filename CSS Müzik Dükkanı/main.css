@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    background-color: #FBC5C5;
+  }
+
+/* Header CSS */
+header {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+h1 {
+    color:#F47C7C;
+    font-size: 40px;
+}
+
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav {
+    float: left;
+    background-color: #A10035;
+}
+.nav a{
+    display: block;
+    padding: 8px 16px;
+    margin-left: 10px;
+    
+    width: 150px;
+    
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 25px;
+    
+}
+.nav a:hover {
+    background-color: #F47C7C;
+    color:#A10035;
+}
+
+
+/* Ana Sayfa Section Css */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+
+   section h4 {
+    margin: 4px;
+    color: #A10035;
+    font-size: 32px;
+   }
+
+   section div {
+    margin: 2px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    
+   
+   section div p{
+    color: #A10035;
+   }
+.urun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   /* Footer Css */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+   footer nav ul{
+    
+    float: left;
+    
+    
+    
+   }
+  
+   footer nav ul h4 {
+    color: #F47C7C;
+   }
+
+   footer nav ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   footer nav ul li a {
+    text-decoration: none;
+    color: #A10035;
+   }
+   footer nav ul li a:hover {
+    background-color: #A10035 ;
+    color: #FFE7BF ;
+   }
